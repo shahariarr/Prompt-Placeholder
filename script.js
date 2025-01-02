@@ -54,7 +54,7 @@ $(document).ready(function () {
         fieldsContainer.empty();
 
         if (placeholders.length === 0) {
-            fieldsContainer.html('<p class="text-danger">No placeholders found in the provided prompt!</p>');
+            fieldsContainer.html('<p class="text-danger">Error: No placeholders were found in the provided prompt. Please ensure your prompt contains valid placeholders. For example: "Hello, [name]! Welcome to {place}."</p></br> <p class="text-success">Notice: There are some simple instructions that you can follow.</p>  ');
             return;
         }
 
