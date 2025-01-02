@@ -436,3 +436,19 @@ footer a:hover {
         opacity: 1.0;
     }
 }
+
+.modal-dialog {
+    max-width: 80%; /* Adjust the width as needed */
+}
+
+.modal-body {
+    font-size: 0.9rem; /* Adjust the font size as needed */
+}
+
+@media (max-width: 576px) {
+    .btn-glitch {
+        padding: 3px 6px;
+        font-size: 0.7rem;
+        min-width: 80px;
+    }
+}
