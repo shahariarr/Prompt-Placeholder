@@ -27,7 +27,7 @@ $(document).ready(function () {
             const listItem = `
                 <li class="list-group-item d-flex justify-content-between align-items-center">
                     ${prompt}
-                    <button class="btn-glitch" data-prompt="${prompt}">Use</button>
+                    <button class=" btn-sm use-sample-prompt btn-glitch" data-prompt="${prompt}">Use</button>
                 </li>
             `;
             samplePromptsList.append(listItem);
