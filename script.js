@@ -95,4 +95,8 @@ $(document).ready(function () {
             alert('Failed to copy!');
         });
     });
+
+    $('#aboutButton').click(function () {
+        $('#aboutModal').modal('show');
+    });
 });

@@ -32,6 +32,7 @@
 
     <button class="btn btn-primary mb-4 btn-glitch" id="generateFields">Generate Placeholders</button>
     <button class="btn btn-secondary mb-4 btn-glitch" id="samplePrompts">Sample Prompts</button>
+    <button class="btn btn-info mb-4 btn-glitch" id="aboutButton">About</button>
 
     <h4 class="mb-3">Fill Placeholders</h4>
     <div id="placeholderFields" class="mb-4"></div>
@@ -60,6 +61,28 @@
         </div>
     </div>
 </div>
+
+<!-- About Modal -->
+<div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="aboutModalLabel">About This System</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>This system allows users to fill placeholders in text prompts effortlessly. Here's how it works:</p>
+                <p>1. **Enter Prompt**: Users can enter a text prompt containing placeholders (e.g., [name], {date}).</p>
+                <p>2. **Generate Placeholders**: By clicking the "Generate Placeholders" button, the system identifies placeholders in the prompt and generates corresponding input fields.</p>
+                <p>3. **Fill Placeholders**: Users fill in the generated input fields with the desired values.</p>
+                <p>4. **Preview**: As users fill in the placeholders, the system updates a preview of the prompt with the filled values in real-time.</p>
+                <p>5. **Copy to Clipboard**: Users can copy the filled prompt to the clipboard by clicking the "Copy to Clipboard" button.</p>
+                <p>6. **Sample Prompts**: Users can click the "Sample Prompts" button to view and use predefined sample prompts.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 <footer>
     <p>Made with ❤️ by <a href="https://github.com/shahariarr" target="_blank">Shahariar Rahman</a></p>
 </footer>
