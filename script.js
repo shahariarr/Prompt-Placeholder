@@ -17,7 +17,27 @@ $(document).ready(function () {
         "Recommend [number] [type of product/service] for someone interested in [interest/hobby].",
         "Create a study plan for learning [topic] in [timeframe], including daily tasks and resources.",
         "Write a [genre] story set in [time period] where the main character is a [profession] facing [challenge].",
-        "Suggest [number] solutions for [problem] considering [constraints]."
+        "Suggest [number] solutions for [problem] considering [constraints].",
+        "Write a function in [language] to [task or purpose], ensuring efficiency and readability.",
+        "Explain the difference between [concept 1] and [concept 2] in software development with examples.",
+        "Debug the following code snippet: [code snippet]. Explain the issue and provide a fixed version.",
+        "Design a database schema for [application type], including at least [number] tables and their relationships.",
+        "Create a REST API specification for [use case], including endpoints, request/response formats, and authentication methods.",
+        "Develop a unit test suite for the following function: [function code]. Ensure full coverage of edge cases.",
+        "Compare [framework 1] and [framework 2] for building [type of application], discussing performance, scalability, and ease of use.",
+        "Write a CI/CD pipeline configuration for [platform], including steps for building, testing, and deploying the application.",
+        "Design an algorithm for [specific problem], explaining its time and space complexity.",
+        "Create a roadmap for learning [technology stack] over [timeframe], including key concepts, tools, and projects to practice.",
+        "Build a responsive UI component in [framework/library] that fulfills [specific requirement].",
+        "Describe a scenario where [software issue] occurs in [context]. Propose [number] debugging steps and potential fixes.",
+        "Develop a script to automate [task] in [language]. Explain how it works and its benefits.",
+        "Explain the principles of [design pattern] with an example implementation in [language].",
+        "Suggest best practices for securing a [type of application], including [number] actionable recommendations.",
+        "Write a guide for deploying a [type of application] on [cloud platform], including prerequisites and step-by-step instructions.",
+        "Propose a microservices architecture for [application type], detailing the services, communication methods, and deployment strategy.",
+        "Optimize the following code snippet: [code snippet]. Explain the changes and the performance improvements achieved.",
+        "Create a CLI tool in [language] that performs [specific functionality], ensuring user-friendly input/output.",
+        "Write a blog post explaining [technical concept] to junior developers, including analogies and practical examples."
     ];
 
     $('#samplePrompts').click(function () {
